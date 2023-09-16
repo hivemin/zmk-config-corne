@@ -20,10 +20,10 @@
             //                    | ENT | LWR | BKSP|   | SPC | RSE  | ALT |
 
             bindings = <
-  &kp TAB  &kp Q  &kp W  &kp E      &kp R          &kp T        &kp Y  &kp U      &kp I    &kp O     &kp P    &kp ESC
-&kp LCTRL  &kp A  &kp S  &kp D      &kp F          &kp G        &kp H  &kp J      &kp K    &kp L  &kp SEMI  &kp GRAVE
-&kp LSHFT  &kp Z  &kp X  &kp C      &kp V          &kp B        &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH   &kp LGUI
-                         &mo 1  &kp ENTER  &kp BACKSPACE    &kp SPACE  &mo 2   &kp RALT
+&kp TAB    &kp Q  &kp W  &kp E  &kp R      &kp T            &kp Y      &kp U  &kp I      &kp O    &kp P     &kp ESC
+&kp LCTRL  &kp A  &kp S  &kp D  &kp F      &kp G            &kp H      &kp J  &kp K      &kp L    &kp SEMI  &kp SINGLE_QUOTE
+&kp LSHFT  &kp Z  &kp X  &kp C  &kp V      &kp B            &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp LGUI
+                         &mo 1  &kp ENTER  &kp BACKSPACE    &kp SPACE  &mo 2  &kp RALT
             >;
         };
 
@@ -35,10 +35,10 @@
             //                    | ENT |     | BKSP|   | SPC |     | ALT |
 
             bindings = <
-    &trans             &kp F1        &kp F2        &kp F3        &kp F4        &kp F5       &kp F6    &kp F7          &kp F8     &kp F9  &kp F10  &kp F11
-&kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP    &kp C_PREV    &kp C_NEXT      &kp C_PP       &trans    &trans          &kp UP     &trans   &trans   &trans
-&bt BT_CLR       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4       &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT   &trans   &trans
-                                                   &trans     &kp ENTER      &kp BSPC    &kp SPACE    &trans        &kp RALT
+&trans      &kp F1             &kp F2        &kp F3        &kp F4        &kp F5          &kp F6     &kp F7    &kp F8          &kp F9     &kp F10  &kp F11
+&kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &kp C_PREV    &kp C_NEXT    &kp C_PP        &trans     &trans    &kp UP          &trans     &trans   &trans
+&bt BT_CLR  &bt BT_SEL 0       &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans     &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans   &trans
+                                             &trans        &kp ENTER     &kp BSPC        &kp SPACE  &trans    &kp RALT
             >;
         };
 
@@ -50,10 +50,10 @@
             //                    | ENT |     | BKSP|   | SPC |     | ALT |
 
             bindings = <
-  &kp TAB  &kp EXCL  &kp AT_SIGN  &kp HASH   &kp DLLR  &kp PRCNT             &kp AMPS         &kp LS(N8)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE       &kp ESC
-&kp LCTRL    &kp N1       &kp N2    &kp N3     &kp N4     &kp N5     &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp RA(LEFT_BRACKET)      &kp RIGHT_BRACKET   &kp PLUS  &kp QUESTION
-&kp LSHFT    &kp N6       &kp N7    &kp N8     &kp N9     &kp N0    &kp RA(BACKSLASH)      &kp BACKSLASH        &kp LEFT_BRACE        &kp RIGHT_BRACE  &kp TILDE     &kp GRAVE
-                                    &trans  &kp ENTER   &kp BSPC            &kp SPACE             &trans              &kp RALT
+&kp TAB    &kp EXCL  &kp RA(N2)  &kp RA(N3)  &kp DLLR   &kp PRCNT    &kp AMPS   &kp LS(N8)            &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS  &kp TILDE  &kp ESC
+&kp LCTRL  &kp N1    &kp N2      &kp N3      &kp N4     &kp N5       &kp AT     &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp PLUS   &kp QUESTION
+&kp LSHFT  &kp N6    &kp N7      &kp N8      &kp N9     &kp N0       &kp PLUS   &kp RA(LEFT_BRACE)    &kp RA(RBRC)           &kp RIGHT_BRACE        &kp TILDE  &kp GRAVE
+                                 &trans      &kp ENTER  &kp BSPC     &kp SPACE  &trans                &kp RALT
             >;
         };
     };
