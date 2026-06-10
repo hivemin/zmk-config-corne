@@ -2,4 +2,12 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    strategy:
+      matrix:
+        include:
+          - board: nrf52840
+            shield: corne_left
+          - board: nrf52840
+            shield: corne_right
+
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.15.3
